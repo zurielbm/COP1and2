@@ -4,7 +4,9 @@ package baxcajay1and2;
 
 
 public class Program1 {
+	
 	public static void main(String[] args) {
+		// Displays the lines out
 		System.out.println("My name is Zuriel");
 		System.out.println("The default type for an integer number in Java is int");
 		System.out.println("The Java default type for a floating point number is double");

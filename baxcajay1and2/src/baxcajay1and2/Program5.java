@@ -4,15 +4,20 @@ import java.util.Scanner;
 //SPC ID: 2381832
 
 public class Program5 {
+	
 	public static void main(String[] args) {
+		
+		// Gets the input of the first integer
 		Scanner inputNumberOne = new Scanner(System.in);
 		System.out.println("Enter an integer: ");
 		int firstNumber = inputNumberOne.nextInt();
 		
+		// Get the input of the second integer
 		Scanner inputNumberTwo = new Scanner(System.in);
 		System.out.println("Enter a second integer: ");
 		int secondNumber = inputNumberTwo.nextInt();
 		
+		// Computes the results and Displays it
 		System.out.println(firstNumber / secondNumber);
 		
 	}
