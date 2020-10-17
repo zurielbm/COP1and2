@@ -17,8 +17,11 @@ public class Program5 {
 		System.out.println("Enter a second integer: ");
 		int secondNumber = inputNumberTwo.nextInt();
 		
-		// Computes the results and Displays it
-		System.out.println(firstNumber / secondNumber);
+		// Computes the quotient
+		int quotient = firstNumber / secondNumber;
+		
+		// Displays the results 
+		System.out.println(quotient);
 		
 	}
 
